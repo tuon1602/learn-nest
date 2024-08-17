@@ -1,5 +1,6 @@
 node: 20.11
 require docker desktop, run this command: docker compose -p tuan-mongo-db up -d
+mongodb compass
 
 currently at: 3:07:06 
 https://www.youtube.com/watch?v=fthiw89XG4s&t=2550s
