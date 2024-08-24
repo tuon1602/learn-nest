@@ -10,3 +10,12 @@ export const hashedPassword = async (plainText:string)=>{
         console.log(error)
     }
 }
+
+export const comparePasswordHelper = async (plainPassword:string,hasedPassword:string)=>{
+    try{
+        return await bcrypt.compare(plainPassword,hasedPassword)
+    }
+    catch(error){
+        console.log(error)
+    }
+}
