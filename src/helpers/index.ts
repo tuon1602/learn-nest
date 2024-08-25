@@ -1,4 +1,5 @@
-const bcrypt = require('bcrypt')
+
+import * as bcrypt from 'bcrypt'
 const salt = 10
 
 
